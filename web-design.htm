@@ -1,0 +1,441 @@
+<html>
+<head>
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <meta charset = "utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  body {
+      position: relative;
+  }
+  </style>
+<title>The Croissantery</title>
+</head>
+<body>
+<div class = "container-fluid px-0">
+  <nav id="navbar" class = "navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <a class = "navbar-brand ps-3" href = "#">
+        <img src = "logo.png" alt = "logo" style = "width: 45px;" class = "rounded-circle">
+    </a>
+    <button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "#collapsibleNavbar">
+      <span class = "navbar-toggler-icon"></span>
+    </button>
+    <div class = "collapse navbar-collapse py-2" id = "collapsibleNavbar">
+      <ul class = "navbar-nav">
+        <li class = "nav-item">
+          <a class = "nav-link ps-4" href = "#section1">Innovation</a>
+        </li>
+        <li class = "nav-item">
+          <a class = "nav-link ps-4" href = "#section2">Mission</a>
+        </li>
+        <li class = "nav-item">
+          <a class = "nav-link ps-4" href = "#section3">Industry</a>
+        </li>
+        <li class = "nav-item">
+          <a class = "nav-link ps-4" href = "#section4">Invest</a>
+        </li>
+        <li class = "nav-item">
+          <a class = "nav-link ps-4" href = "#section5">Team</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<div id = "carouselWithCaptions" class = "carousel slide carousel-fade" data-bs-ride = "carousel">
+  <div class="carousel-indicators">
+    <button type = "button" data-bs-target = "#carouselWithCaptions" data-bs-slide-to = "0" class = "active" aria-current = "true" aria-label = "Slide 1"></button>
+    <button type = "button" data-bs-target = "#carouselWithCaptions" data-bs-slide-to = "1" aria-label = "Slide 2"></button>
+    <button type = "button" data-bs-target = "#carouselWithCaptions" data-bs-slide-to = "2" aria-label = "Slide 3"></button>
+  </div>
+  <div class = "carousel-inner">
+    <div class = "carousel-item active" data-bs-interval = "1500">
+      <img src = "carousel1.png" class = "d-block w-100" alt = "slide 1">
+      <div class = "carousel-caption d-none d-md-block">
+        <h1 class = "display-1 fw-bold">The future is here.</h1>
+        <button type="button" class="btn btn-outline-light">
+           <h1 class = "px-2 display-4">Complete Investment</h1>
+        </button>
+      </div>
+    </div>
+    <div class = "carousel-item" data-bs-interval = "1500">
+      <img src = "carousel2.png" class = "d-block w-100" alt = "slide 2">
+      <div class = "carousel-caption d-none d-md-block">
+        <h1 class = "display-1 fw-bold">Never-ending croissant.</h1>
+        <button type="button" class="btn btn-outline-light">
+           <h1 class = "px-2 display-4">Complete Investment</h1>
+        </button>
+      </div>
+    </div>
+    <div class = "carousel-item" data-bs-interval = "1500">
+      <img src = "carousel3.png" class = "d-block w-100" alt = "slide 3">
+      <div class = "carousel-caption d-none d-md-block">
+        <h1 class = "display-1 fw-bold">Croissantify the world.</h1>
+        <button type="button" class="btn btn-outline-light">
+           <h1 class = "px-2 display-4">Complete Investment</h1>
+        </button>
+      </div>
+    </div>
+  </div>
+  <button class = "carousel-control-prev" type="button" data-bs-target="#carouselWithCaptions" data-bs-slide="prev">
+    <span class = "carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class = "visually-hidden">Previous</span>
+  </button>
+  <button class = "carousel-control-next" type="button" data-bs-target="#carouselWithCaptions" data-bs-slide="next">
+    <span class = "carousel-control-next-icon" aria-hidden="true"></span>
+    <span class = "visually-hidden">Next</span>
+  </button>
+</div>
+
+<div data-bs-spy = "scroll" data-bs-target = "#navbar" data-bs-offset = "0" class = "scrollspy-example" tabindex = "0">
+  <div id = "section1" class="pt-5 container-fluid bg-dark text-muted" style = "padding:35px 20px;">
+    <br>
+    <div class = "container">
+      <div class = "row">
+        <div class = "col-sm-6">
+          <img src = "pic1.png" alt = "pic 1" style = "width: 100%;">
+        </div>
+        <div class = "px-5 col-sm-6">
+          <h1 class = "pb-5 display-1 text-white">Innovation</h1>
+          <h1>Our croissants utilize patented Growssant™ technology to gain the ability to never stop growing.
+              If you fall behind on your croissant consuming, you will have to speed it up.
+          </h1>
+          <br><br><br>
+          <button type="button" class="btn btn-outline-light">
+  	         <h1 class = "px-2 display-4">Complete Investment</h1>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div id="section2" class="container-fluid bg-dark text-muted" style="padding:35px 20px;">
+    <div class = "container">
+      <div class = "row">
+        <div class = "col-sm-6">
+          <h1 class = "pb-5 display-1 text-white">Our Mission</h1>
+          <h1 class = "pe-4">We believe that the world should be ruled by croissants. Therefore, we created a croissant that forces people to consume it until they turn into one.</h1>
+          <br><br><br><br>
+          <button type="button" class="btn btn-outline-light">
+  	         <h1 class = "px-2 display-4">Complete Investment</h1>
+          </button>
+        </div>
+        <div class = "col-sm-6">
+          <img src = "pic2.png" alt = "pic 2" style = "width: 100%;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="section3" class="container-fluid bg-dark text-muted" style="padding:35px 20px;">
+    <div class = "container">
+      <div class = "row">
+        <div class = "col-sm-6">
+          <img src = "pic3.png" alt = "pic 3" style = "width: 100%;">
+        </div>
+        <div class = "px-5 col-sm-6">
+          <h1 class = "pb-5 display-1 text-white">Industry</h1>
+          <h1>As of of now, croissants have a compound annual growth rate of 5.8%.
+              That is too low. With our product, humans will soon become brainless blobs of butter. Croissants will take over houses, buildings, cities, countries, the globe. With your help, we can croissantify the world.
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="section4" class="container-fluid bg-dark text-muted" style="padding:35px 20px;">
+    <div class = "container overflow-hidden">
+      <h1 class = "display-1 pb-5 text-white text-center">Invest</h1>
+      <div class = "row">
+        <div class = "col-sm-12 col-md-6 col-lg-3">
+          <div class = "border border-secondary rounded">
+            <br>
+            <h3 class = "pt-2 px-3 text-center text-light">Invest $0.01</h3>
+            <p class = "px-3 text-center">1% bonus shares + 1 croissant ornament<br><br></p>
+          </div>
+        </div>
+        <div class = "col-sm-12 col-md-6 col-lg-3">
+          <div class = "border border-secondary rounded">
+            <br>
+            <h3 class = "pt-2 px-3 text-center text-light">Invest $1</h3>
+            <p class = "px-3 text-center">111% bonus shares + 1 croissant powered car<br><br></p>
+          </div>
+        </div>
+        <div class = "col-sm-12 col-md-6 col-lg-3">
+          <div class = "border border-secondary rounded">
+            <br>
+            <h3 class = "pt-2 px-3 text-center text-light">Invest $100,000</h3>
+            <p class = "px-3 text-center">111111% bonus shares +1 private croissant army<br><br></p>
+          </div>
+        </div>
+        <div class = "col-sm-12 col-md-6 col-lg-3">
+          <div class = "border border-secondary rounded">
+            <h3 class = "pt-2 px-3 text-center text-light">Invest $100,000,000,000</h3>
+            <p class = "px-3 text-center">1111111111111111111111111111111% bonus shares + 1 priviate planet in the Croissantverse</p>
+          </div>
+        </div>
+      </div>
+      <div class = "text-center">
+        <br><br>
+        <button type="button" class="mt-3 btn btn-outline-light">
+           <h1 class = "px-2 display-4">Complete Investment</h1>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div id = "section5" class = "container-fluid bg-dark text-muted" style = "padding:35px 20px;">
+    <h1 class = "display-1 text-white text-center">Our Team</h1>
+    <br>
+    <br>
+    <div class = "container">
+      <div class = "row">
+        <div class = "col-sm-12 col-md-6 col-lg-3">
+          <div class = "container mb-5">
+            <div class = "card">
+              <img class = "card-img-top" src = "logo.png" alt = "froissant" style = "width:100%">
+              <div class = "card-body">
+                <h4 class = "card-title">Froissant</h4>
+                <p class = "card-text">Founder and CEO</p>
+                <button class = "btn btn-dark" type = "button" data-bs-toggle = "offcanvas" data-bs-target = "#offcanvas1">
+                  Details
+                </button>
+                <div class = "offcanvas offcanvas-end bg-dark" id = "offcanvas1">
+                  <div class = "offcanvas-header">
+                    <h1 class = "offcanvas-title text-white">Froissant</h1>
+                    <button type = "button" class = "btn-close text-reset" data-bs-dismiss = "offcanvas"></button>
+                  </div>
+                  <div class = "offcanvas-body text-white">
+                    <div class = "accordion" id = "accordion">
+                      <div class = "accordion-item">
+                        <h2 class = "accordion-header" id = "panelsStayOpen-headingOne">
+                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseOne" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseOne">
+                            Background
+                          </button>
+                        </h2>
+                        <div id = "panelsStayOpen-collapseOne" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingOne">
+                          <div class = "accordion-body">
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class = "accordion-item">
+                        <h2 class = "accordion-header" id = "panelsStayOpen-headingTwo">
+                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseTwo" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseTwo">
+                            Specialty
+                          </button>
+                        </h2>
+                        <div id = "panelsStayOpen-collapseTwo" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingTwo">
+                          <div class = "accordion-body">
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class = "accordion-item">
+                        <h2 class = "accordion-header" id = "panelsStayOpen-headingThree">
+                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseThree" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseThree">
+                            Achievements
+                          </button>
+                        </h2>
+                        <div id = "panelsStayOpen-collapseThree" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingThree">
+                          <div class = "accordion-body">
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class = "col-sm-12 col-md-6 col-lg-3">
+          <div class = "container mb-5">
+            <div class = "card">
+              <img class = "card-img-top" src = "duckcroissant.png" alt = "duckssant" style = "width:100%">
+              <div class = "card-body">
+                <h4 class = "card-title">Duckssant</h4>
+                <p class = "card-text">CFO</p>
+                <button class = "btn btn-dark" type = "button" data-bs-toggle = "offcanvas" data-bs-target = "#offcanvas2">
+                  Details
+                </button>
+                <div class = "offcanvas offcanvas-end bg-dark" id = "offcanvas2">
+                  <div class = "offcanvas-header">
+                    <h1 class = "offcanvas-title text-white">Duckssant</h1>
+                    <button type = "button" class = "btn-close text-reset" data-bs-dismiss = "offcanvas"></button>
+                  </div>
+                  <div class = "offcanvas-body text-white">
+                    <div class = "accordion" id = "accordion">
+                      <div class = "accordion-item">
+                        <h2 class = "accordion-header" id = "panelsStayOpen-headingOne">
+                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseOne" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseOne">
+                            Background
+                          </button>
+                        </h2>
+                        <div id = "panelsStayOpen-collapseOne" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingOne">
+                          <div class = "accordion-body">
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class = "accordion-item">
+                        <h2 class = "accordion-header" id = "panelsStayOpen-headingTwo">
+                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseTwo" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseTwo">
+                            Specialty
+                          </button>
+                        </h2>
+                        <div id = "panelsStayOpen-collapseTwo" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingTwo">
+                          <div class = "accordion-body">
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class = "accordion-item">
+                        <h2 class = "accordion-header" id = "panelsStayOpen-headingThree">
+                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseThree" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseThree">
+                            Achievements
+                          </button>
+                        </h2>
+                        <div id = "panelsStayOpen-collapseThree" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingThree">
+                          <div class = "accordion-body">
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class = "col-sm-12 col-md-6 col-lg-3">
+          <div class = "container mb-5">
+            <div class = "card">
+              <img class = "card-img-top" src = "catcroissant.png" alt = "catssant" style = "width:100%">
+              <div class = "card-body">
+                <h4 class = "card-title">Catssant</h4>
+                <p class = "card-text">COO</p>
+                <button class = "btn btn-dark" type = "button" data-bs-toggle = "offcanvas" data-bs-target = "#offcanvas3">
+                  Details
+                </button>
+                <div class = "offcanvas offcanvas-end bg-dark" id = "offcanvas3">
+                  <div class = "offcanvas-header">
+                    <h1 class = "offcanvas-title text-white">Catssant</h1>
+                    <button type = "button" class = "btn-close text-reset" data-bs-dismiss = "offcanvas"></button>
+                  </div>
+                  <div class = "offcanvas-body text-white">
+                    <div class = "accordion" id = "accordion">
+                      <div class = "accordion-item">
+                        <h2 class = "accordion-header" id = "panelsStayOpen-headingOne">
+                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseOne" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseOne">
+                            Background
+                          </button>
+                        </h2>
+                        <div id = "panelsStayOpen-collapseOne" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingOne">
+                          <div class = "accordion-body">
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class = "accordion-item">
+                        <h2 class = "accordion-header" id = "panelsStayOpen-headingTwo">
+                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseTwo" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseTwo">
+                            Specialty
+                          </button>
+                        </h2>
+                        <div id = "panelsStayOpen-collapseTwo" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingTwo">
+                          <div class = "accordion-body">
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class = "accordion-item">
+                        <h2 class = "accordion-header" id = "panelsStayOpen-headingThree">
+                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseThree" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseThree">
+                            Achievements
+                          </button>
+                        </h2>
+                        <div id = "panelsStayOpen-collapseThree" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingThree">
+                          <div class = "accordion-body">
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class = "col-sm-12 col-md-6 col-lg-3">
+          <div class = "container mb-5">
+            <div class = "card">
+              <img class = "card-img-top" src = "hamstercroissant.png" alt = "hamssant" style = "width:100%">
+              <div class = "card-body">
+                <h4 class = "card-title">Hamssant</h4>
+                <p class = "card-text">CMO</p>
+                <button class = "btn btn-dark" type = "button" data-bs-toggle = "offcanvas" data-bs-target = "#offcanvas4">
+                  Details
+                </button>
+                <div class = "offcanvas offcanvas-end bg-dark" id = "offcanvas4">
+                  <div class = "offcanvas-header">
+                    <h1 class = "offcanvas-title text-white">Hamssant</h1>
+                    <button type = "button" class = "btn-close text-reset" data-bs-dismiss = "offcanvas"></button>
+                  </div>
+                  <div class = "offcanvas-body text-white">
+                    <div class = "accordion" id = "accordion">
+                      <div class = "accordion-item">
+                        <h2 class = "accordion-header" id = "panelsStayOpen-headingOne">
+                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseOne" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseOne">
+                            Background
+                          </button>
+                        </h2>
+                        <div id = "panelsStayOpen-collapseOne" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingOne">
+                          <div class = "accordion-body">
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class = "accordion-item">
+                        <h2 class = "accordion-header" id = "panelsStayOpen-headingTwo">
+                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseTwo" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseTwo">
+                            Specialty
+                          </button>
+                        </h2>
+                        <div id = "panelsStayOpen-collapseTwo" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingTwo">
+                          <div class = "accordion-body">
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class = "accordion-item">
+                        <h2 class = "accordion-header" id = "panelsStayOpen-headingThree">
+                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseThree" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseThree">
+                            Achievements
+                          </button>
+                        </h2>
+                        <div id = "panelsStayOpen-collapseThree" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingThree">
+                          <div class = "accordion-body">
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
