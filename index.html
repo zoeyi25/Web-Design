@@ -7,14 +7,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
   <meta charset = "utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-  body {
-      position: relative;
-  }
-  </style>
 <title>Croissants</title>
 </head>
-<body>
+<body style = "position: relative;"> <!-- moved this from style for consistency -->
 <div class = "container-fluid px-0">
   <nav id="navbar" class = "navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
     <a class = "navbar-brand ps-3" href = "#">
@@ -23,6 +18,7 @@
     <button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "#collapsibleNavbar">
       <span class = "navbar-toggler-icon"></span>
     </button>
+    <!-- Removing the nav's background and fixing it into place might give it a more modern look -->
     <div class = "collapse navbar-collapse py-2" id = "collapsibleNavbar">
       <ul class = "navbar-nav">
         <li class = "nav-item">
@@ -57,6 +53,7 @@
         <h1 class = "display-1 fw-bold">The future is here.</h1>
         <a href = "https://www.youtube.com/watch?v=q3WC-X7xDNo" class="btn btn-light">
            <h1 class = "px-2 display-4">Complete Investment</h1>
+           <!-- if you could find a way to remove the button's backgruond and simply change the text's size opacity when hovered/clicked, it might have a cleaner look -->
         </a>
       </div>
     </div>
@@ -98,7 +95,7 @@
           <img src = "pic1.png" alt = "pic 1" style = "width: 100%;">
         </div>
         <div class = "px-5 col-sm-6">
-          <h1 class = "pb-5 display-1 text-white">Innovation</h1>
+          <h1 class = "pb-5 display-1 text-white">Growssant™ Technology</h1> <!-- makes it more clear what this is about -->
           <h1>
             Our croissants utilize patented Growssant™ technology to gain the ability to never stop growing. If you fall behind on your croissant consuming, you will have to speed it up.
           </h1>
@@ -139,7 +136,7 @@
           <img src = "pic3.png" alt = "pic 3" style = "width: 100%;">
         </div>
         <div class = "px-5 col-sm-6">
-          <h1 class = "pb-5 display-1 text-white">Industry</h1>
+          <h1 class = "pb-5 display-1 text-white">The Problem</h1> <!-- again, makes it more clear what this section is about. -->
           <h1>
             As of of now, croissants have a compound annual growth rate of 5.8%. That is too low. With our product, humans will soon become brainless blobs of butter. Croissants will take over houses, buildings, cities, countries, the globe. With your help, we can croissantify the world.
           </h1>
@@ -147,7 +144,7 @@
       </div>
     </div>
   </div>
-
+  <!-- It looks like the "invest" sections are buttons. Maybe add a link or fill in the backgruond to make it more clear they aren't buttons -->
   <div id="invest" class="container-fluid bg-dark text-muted" style="padding:35px 20px;">
     <div class = "container overflow-hidden">
       <h1 class = "display-1 pb-5 text-white text-center">Invest</h1>
@@ -188,7 +185,7 @@
       </div>
     </div>
   </div>
-
+  <!-- Making the "details" buttons into collapsibles instead of offcanvases might make the page more cohesive -->
   <div id = "team" class = "container-fluid bg-dark text-muted" style = "padding:35px 20px;">
     <h1 class = "display-1 text-white text-center">Our Team</h1>
     <br>
