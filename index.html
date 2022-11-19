@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Croissants</title>
 </head>
-<body style = "position: relative;"> <!-- moved this from style for consistency -->
+<body style = "position: relative;">
 <div class = "container-fluid px-0">
   <nav id="navbar" class = "navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
     <a class = "navbar-brand ps-3" href = "#">
@@ -19,7 +19,6 @@
     <button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "#collapsibleNavbar">
       <span class = "navbar-toggler-icon"></span>
     </button>
-    <!-- Removing the nav's background and fixing it into place might give it a more modern look -->
     <div class = "collapse navbar-collapse py-2" id = "collapsibleNavbar">
       <ul class = "navbar-nav">
         <li class = "nav-item">
@@ -52,9 +51,8 @@
       <img src = "assets/carousel1.png" class = "d-block w-100" alt = "slide 1">
       <div class = "carousel-caption d-none d-md-block">
         <h1 class = "display-1 fw-bold">The future is here.</h1>
-        <a href = "https://www.youtube.com/watch?v=q3WC-X7xDNo" class="btn btn-light">
-           <h1 class = "px-2 display-4">Complete Investment</h1>
-           <!-- if you could find a way to remove the button's backgruond and simply change the text's size opacity when hovered/clicked, it might have a cleaner look -->
+        <a href = "https://www.youtube.com/watch?v=q3WC-X7xDNo" class="btn btn-light rounded-pill">
+          <h1 class = "px-2 p-2 display-4 fw-normal">Complete Investment</h1>
         </a>
       </div>
     </div>
@@ -62,8 +60,8 @@
       <img src = "assets/carousel2.png" class = "d-block w-100" alt = "slide 2">
       <div class = "carousel-caption d-none d-md-block">
         <h1 class = "display-1 fw-bold">Never-ending croissant.</h1>
-        <a href = "https://www.youtube.com/watch?v=q3WC-X7xDNo" class="btn btn-light">
-           <h1 class = "px-2 display-4">Complete Investment</h1>
+        <a href = "https://www.youtube.com/watch?v=q3WC-X7xDNo" class="btn btn-light rounded-pill">
+          <h1 class = "px-2 p-2 display-4 fw-normal">Complete Investment</h1>
         </a>
       </div>
     </div>
@@ -71,9 +69,11 @@
       <img src = "assets/carousel3.png" class = "d-block w-100" alt = "slide 3">
       <div class = "carousel-caption d-none d-md-block">
         <h1 class = "display-1 fw-bold">Croissantify the world.</h1>
-        <a href = "https://www.youtube.com/watch?v=q3WC-X7xDNo" class="btn btn-light">
-           <h1 class = "px-2 display-4">Complete Investment</h1>
-        </a>
+        <div class = "shadow">
+          <a href = "https://www.youtube.com/watch?v=q3WC-X7xDNo" class="btn btn-light rounded-pill">
+            <h1 class = "px-2 p-2 display-4 fw-normal">Complete Investment</h1>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -96,14 +96,16 @@
           <img src = "assets/pic1.png" alt = "pic 1" style = "width: 100%;">
         </div>
         <div class = "px-5 col-sm-6">
-          <h1 class = "pb-5 display-1 text-white">Growssant™ Technology</h1> <!-- makes it more clear what this is about -->
+          <h1 class = "pb-5 display-1 text-white"><br>Technology</h1>
           <h1>
             Our croissants utilize patented Growssant™ technology to gain the ability to never stop growing. If you fall behind on your croissant consuming, you will have to speed it up.
           </h1>
-          <br><br><br>
-          <a href = "https://www.youtube.com/watch?v=q3WC-X7xDNo" class="btn btn-light">
-             <h1 class = "px-2 display-4">Complete Investment</h1>
-          </a>
+          <br><br>
+          <div class = "text-center">
+            <a href = "https://www.youtube.com/watch?v=q3WC-X7xDNo" class="btn btn-light rounded-pill">
+              <h1 class = "px-2 p-2 display-4 fw-normal">Complete Investment</h1>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -119,8 +121,8 @@
             We believe that the world should be ruled by croissants. Therefore, we created a croissant that forces people to consume it until they turn into one.
           </h1>
           <br><br><br><br>
-          <a href = "https://www.youtube.com/watch?v=q3WC-X7xDNo" class="btn btn-light">
-             <h1 class = "px-2 display-4">Complete Investment</h1>
+          <a href = "https://www.youtube.com/watch?v=q3WC-X7xDNo" class="btn btn-light rounded-pill">
+            <h1 class = "px-2 p-2 display-4 fw-normal">Complete Investment</h1>
           </a>
         </div>
         <div class = "col-sm-6">
@@ -136,8 +138,8 @@
         <div class = "col-sm-6">
           <img src = "assets/pic3.png" alt = "pic 3" style = "width: 100%;">
         </div>
-        <div class = "px-5 col-sm-6">
-          <h1 class = "pb-5 display-1 text-white">The Problem</h1> <!-- again, makes it more clear what this section is about. -->
+        <div class = "px-5 pt-2 col-sm-6">
+          <h1 class = "pb-5 display-1 text-white">The Problem</h1>
           <h1>
             As of of now, croissants have a compound annual growth rate of 5.8%. That is too low. With our product, humans will soon become brainless blobs of butter. Croissants will take over houses, buildings, cities, countries, the globe. With your help, we can croissantify the world.
           </h1>
@@ -145,7 +147,6 @@
       </div>
     </div>
   </div>
-  <!-- It looks like the "invest" sections are buttons. Maybe add a link or fill in the backgruond to make it more clear they aren't buttons -->
   <div id="invest" class="container-fluid bg-dark text-muted" style="padding:35px 20px;">
     <div class = "container overflow-hidden">
       <h1 class = "display-1 pb-5 text-white text-center">Invest</h1>
@@ -154,21 +155,21 @@
           <div class = "border border-secondary rounded">
             <br>
             <h3 class = "pt-2 px-3 text-center text-light">Invest $0.01</h3>
-            <p class = "px-3 text-center">1% bonus shares + 1 croissant ornament<br><br></p>
+            <p class = "px-3 pb-2 text-center">1% bonus shares + 1 croissant ornament<br><br></p>
           </div>
         </div>
         <div class = "col-sm-12 col-md-6 col-lg-3">
           <div class = "border border-secondary rounded">
             <br>
             <h3 class = "pt-2 px-3 text-center text-light">Invest $1</h3>
-            <p class = "px-3 text-center">111% bonus shares + 1 croissant powered car<br><br></p>
+            <p class = "px-3 pb-2 text-center">111% bonus shares + 1 croissant powered car<br><br></p>
           </div>
         </div>
         <div class = "col-sm-12 col-md-6 col-lg-3">
           <div class = "border border-secondary rounded">
             <br>
             <h3 class = "pt-2 px-3 text-center text-light">Invest $100,000</h3>
-            <p class = "px-3 text-center">111111% bonus shares +1 private croissant army<br><br></p>
+            <p class = "px-3 pb-2 text-center">111111% bonus shares +1 private croissant army<br><br></p>
           </div>
         </div>
         <div class = "col-sm-12 col-md-6 col-lg-3">
@@ -179,9 +180,9 @@
         </div>
       </div>
       <div class = "text-center">
-        <br><br>
-        <a href = "https://www.youtube.com/watch?v=q3WC-X7xDNo" class="btn btn-light">
-           <h1 class = "px-2 display-4">Complete Investment</h1>
+        <br><br><br><br>
+        <a href = "https://www.youtube.com/watch?v=q3WC-X7xDNo" class="btn btn-light rounded-pill">
+          <h1 class = "px-2 p-2 display-4 fw-normal">Complete Investment</h1>
         </a>
       </div>
     </div>
@@ -189,8 +190,7 @@
   <!-- Making the "details" buttons into collapsibles instead of offcanvases might make the page more cohesive -->
   <div id = "team" class = "container-fluid bg-dark text-muted" style = "padding:35px 20px;">
     <h1 class = "display-1 text-white text-center">Our Team</h1>
-    <br>
-    <br>
+    <br><br><br>
     <div class = "container">
       <div class = "row">
         <div class = "col-sm-12 col-md-6 col-lg-3">
@@ -200,50 +200,44 @@
               <div class = "card-body">
                 <h4 class = "card-title">Froissant</h4>
                 <p class = "card-text">Founder and CEO</p>
-                <button class = "btn btn-dark" type = "button" data-bs-toggle = "offcanvas" data-bs-target = "#offcanvas1">
+                <button class = "btn btn-dark" type = "button" data-bs-toggle = "collapse" data-bs-target = "#collapsible1">
                   Details
                 </button>
-                <div class = "offcanvas offcanvas-end bg-dark" id = "offcanvas1">
-                  <div class = "offcanvas-header">
-                    <h1 class = "offcanvas-title text-white">Froissant</h1>
-                    <button type = "button" class = "btn-close text-reset" data-bs-dismiss = "offcanvas"></button>
-                  </div>
-                  <div class = "offcanvas-body text-white">
-                    <div class = "accordion" id = "accordion">
-                      <div class = "accordion-item">
-                        <h2 class = "accordion-header" id = "panelsStayOpen-headingOne">
-                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseOne" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseOne">
-                            Background
-                          </button>
-                        </h2>
-                        <div id = "panelsStayOpen-collapseOne" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingOne">
-                          <div class = "accordion-body">
-                            <p>Previously lived in the amazon rainforest</p>
-                          </div>
+                <div id="collapsible1" class="collapse">
+                  <div class = "accordion pt-3" id = "accordion">
+                    <div class = "accordion-item">
+                      <h2 class = "accordion-header" id = "panelsStayOpen-headingOne">
+                        <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseOne" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseOne">
+                          Background
+                        </button>
+                      </h2>
+                      <div id = "panelsStayOpen-collapseOne" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingOne">
+                        <div class = "accordion-body">
+                          <p>Previously lived in the amazon rainforest</p>
                         </div>
                       </div>
-                      <div class = "accordion-item">
-                        <h2 class = "accordion-header" id = "panelsStayOpen-headingTwo">
-                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseTwo" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseTwo">
-                            Specialty
-                          </button>
-                        </h2>
-                        <div id = "panelsStayOpen-collapseTwo" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingTwo">
-                          <div class = "accordion-body">
-                            <p>Sticking to things</p>
-                          </div>
+                    </div>
+                    <div class = "accordion-item">
+                      <h2 class = "accordion-header" id = "panelsStayOpen-headingTwo">
+                        <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseTwo" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseTwo">
+                          Specialty
+                        </button>
+                      </h2>
+                      <div id = "panelsStayOpen-collapseTwo" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingTwo">
+                        <div class = "accordion-body">
+                          <p>Sticking to things</p>
                         </div>
                       </div>
-                      <div class = "accordion-item">
-                        <h2 class = "accordion-header" id = "panelsStayOpen-headingThree">
-                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseThree" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseThree">
-                            Fun Fact
-                          </button>
-                        </h2>
-                        <div id = "panelsStayOpen-collapseThree" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingThree">
-                          <div class = "accordion-body">
-                            <p>Can sometimes work as a qr code</p>
-                          </div>
+                    </div>
+                    <div class = "accordion-item">
+                      <h2 class = "accordion-header" id = "panelsStayOpen-headingThree">
+                        <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseThree" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseThree">
+                          Fun Fact
+                        </button>
+                      </h2>
+                      <div id = "panelsStayOpen-collapseThree" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingThree">
+                        <div class = "accordion-body">
+                          <p>Can sometimes work as a qr code</p>
                         </div>
                       </div>
                     </div>
@@ -260,50 +254,44 @@
               <div class = "card-body">
                 <h4 class = "card-title">Duckssant</h4>
                 <p class = "card-text">CFO</p>
-                <button class = "btn btn-dark" type = "button" data-bs-toggle = "offcanvas" data-bs-target = "#offcanvas2">
+                <button class = "btn btn-dark" type = "button" data-bs-toggle = "collapse" data-bs-target = "#collapsible2">
                   Details
                 </button>
-                <div class = "offcanvas offcanvas-end bg-dark" id = "offcanvas2">
-                  <div class = "offcanvas-header">
-                    <h1 class = "offcanvas-title text-white">Duckssant</h1>
-                    <button type = "button" class = "btn-close text-reset" data-bs-dismiss = "offcanvas"></button>
-                  </div>
-                  <div class = "offcanvas-body text-white">
-                    <div class = "accordion" id = "accordion">
-                      <div class = "accordion-item">
-                        <h2 class = "accordion-header" id = "panelsStayOpen-headingOne">
-                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseOne" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseOne">
-                            Background
-                          </button>
-                        </h2>
-                        <div id = "panelsStayOpen-collapseOne" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingOne">
-                          <div class = "accordion-body">
-                            <p>Found in a puddle</p>
-                          </div>
+                <div id="collapsible2" class="collapse">
+                  <div class = "accordion pt-3 " id = "accordion">
+                    <div class = "accordion-item">
+                      <h2 class = "accordion-header" id = "panelsStayOpen-headingOne">
+                        <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseOne" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseOne">
+                          Background
+                        </button>
+                      </h2>
+                      <div id = "panelsStayOpen-collapseOne" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingOne">
+                        <div class = "accordion-body">
+                          <p>Found in a puddle</p>
                         </div>
                       </div>
-                      <div class = "accordion-item">
-                        <h2 class = "accordion-header" id = "panelsStayOpen-headingTwo">
-                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseTwo" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseTwo">
-                            Specialty
-                          </button>
-                        </h2>
-                        <div id = "panelsStayOpen-collapseTwo" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingTwo">
-                          <div class = "accordion-body">
-                            <p>Good at drowning</p>
-                          </div>
+                    </div>
+                    <div class = "accordion-item">
+                      <h2 class = "accordion-header" id = "panelsStayOpen-headingTwo">
+                        <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseTwo" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseTwo">
+                          Specialty
+                        </button>
+                      </h2>
+                      <div id = "panelsStayOpen-collapseTwo" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingTwo">
+                        <div class = "accordion-body">
+                          <p>Good at drowning</p>
                         </div>
                       </div>
-                      <div class = "accordion-item">
-                        <h2 class = "accordion-header" id = "panelsStayOpen-headingThree">
-                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseThree" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseThree">
-                            Fun Fact
-                          </button>
-                        </h2>
-                        <div id = "panelsStayOpen-collapseThree" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingThree">
-                          <div class = "accordion-body">
-                            <p>Is addicted to eating credit cards</p>
-                          </div>
+                    </div>
+                    <div class = "accordion-item">
+                      <h2 class = "accordion-header" id = "panelsStayOpen-headingThree">
+                        <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseThree" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseThree">
+                          Fun Fact
+                        </button>
+                      </h2>
+                      <div id = "panelsStayOpen-collapseThree" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingThree">
+                        <div class = "accordion-body">
+                          <p>Is addicted to eating credit cards</p>
                         </div>
                       </div>
                     </div>
@@ -320,50 +308,44 @@
               <div class = "card-body">
                 <h4 class = "card-title">Catssant</h4>
                 <p class = "card-text">COO</p>
-                <button class = "btn btn-dark" type = "button" data-bs-toggle = "offcanvas" data-bs-target = "#offcanvas3">
+                <button class = "btn btn-dark" type = "button" data-bs-toggle = "collapse" data-bs-target = "#collapsible3">
                   Details
                 </button>
-                <div class = "offcanvas offcanvas-end bg-dark" id = "offcanvas3">
-                  <div class = "offcanvas-header">
-                    <h1 class = "offcanvas-title text-white">Catssant</h1>
-                    <button type = "button" class = "btn-close text-reset" data-bs-dismiss = "offcanvas"></button>
-                  </div>
-                  <div class = "offcanvas-body text-white">
-                    <div class = "accordion" id = "accordion">
-                      <div class = "accordion-item">
-                        <h2 class = "accordion-header" id = "panelsStayOpen-headingOne">
-                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseOne" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseOne">
-                            Background
-                          </button>
-                        </h2>
-                        <div id = "panelsStayOpen-collapseOne" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingOne">
-                          <div class = "accordion-body">
-                            <p>From Saturn</p>
-                          </div>
+                <div id="collapsible3" class="collapse">
+                  <div class = "accordion pt-3" id = "accordion">
+                    <div class = "accordion-item">
+                      <h2 class = "accordion-header" id = "panelsStayOpen-headingOne">
+                        <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseOne" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseOne">
+                          Background
+                        </button>
+                      </h2>
+                      <div id = "panelsStayOpen-collapseOne" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingOne">
+                        <div class = "accordion-body">
+                          <p>From Saturn</p>
                         </div>
                       </div>
-                      <div class = "accordion-item">
-                        <h2 class = "accordion-header" id = "panelsStayOpen-headingTwo">
-                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseTwo" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseTwo">
-                            Specialty
-                          </button>
-                        </h2>
-                        <div id = "panelsStayOpen-collapseTwo" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingTwo">
-                          <div class = "accordion-body">
-                            <p>Gets to park in disabled parking spots because it doesn't have legs</p>
-                          </div>
+                    </div>
+                    <div class = "accordion-item">
+                      <h2 class = "accordion-header" id = "panelsStayOpen-headingTwo">
+                        <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseTwo" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseTwo">
+                          Specialty
+                        </button>
+                      </h2>
+                      <div id = "panelsStayOpen-collapseTwo" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingTwo">
+                        <div class = "accordion-body">
+                          <p>Gets to park in disabled parking spots because it doesn't have legs</p>
                         </div>
                       </div>
-                      <div class = "accordion-item">
-                        <h2 class = "accordion-header" id = "panelsStayOpen-headingThree">
-                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseThree" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseThree">
-                            Fun Fact
-                          </button>
-                        </h2>
-                        <div id = "panelsStayOpen-collapseThree" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingThree">
-                          <div class = "accordion-body">
-                            <p>Enjoys jumping off buildings</p>
-                          </div>
+                    </div>
+                    <div class = "accordion-item">
+                      <h2 class = "accordion-header" id = "panelsStayOpen-headingThree">
+                        <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseThree" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseThree">
+                          Fun Fact
+                        </button>
+                      </h2>
+                      <div id = "panelsStayOpen-collapseThree" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingThree">
+                        <div class = "accordion-body">
+                          <p>Enjoys jumping off buildings</p>
                         </div>
                       </div>
                     </div>
@@ -380,50 +362,44 @@
               <div class = "card-body">
                 <h4 class = "card-title">Hamssant</h4>
                 <p class = "card-text">CMO</p>
-                <button class = "btn btn-dark" type = "button" data-bs-toggle = "offcanvas" data-bs-target = "#offcanvas4">
+                <button class = "btn btn-dark" type = "button" data-bs-toggle = "collapse" data-bs-target = "#collapsible4">
                   Details
                 </button>
-                <div class = "offcanvas offcanvas-end bg-dark" id = "offcanvas4">
-                  <div class = "offcanvas-header">
-                    <h1 class = "offcanvas-title text-white">Hamssant</h1>
-                    <button type = "button" class = "btn-close text-reset" data-bs-dismiss = "offcanvas"></button>
-                  </div>
-                  <div class = "offcanvas-body text-white">
-                    <div class = "accordion" id = "accordion">
-                      <div class = "accordion-item">
-                        <h2 class = "accordion-header" id = "panelsStayOpen-headingOne">
-                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseOne" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseOne">
-                            Background
-                          </button>
-                        </h2>
-                        <div id = "panelsStayOpen-collapseOne" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingOne">
-                          <div class = "accordion-body">
-                            <p>Hatched from an egg</p>
-                          </div>
+                <div id="collapsible4" class="collapse">
+                  <div class = "accordion pt-3" id = "accordion">
+                    <div class = "accordion-item">
+                      <h2 class = "accordion-header" id = "panelsStayOpen-headingOne">
+                        <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseOne" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseOne">
+                          Background
+                        </button>
+                      </h2>
+                      <div id = "panelsStayOpen-collapseOne" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingOne">
+                        <div class = "accordion-body">
+                          <p>Hatched from an egg</p>
                         </div>
                       </div>
-                      <div class = "accordion-item">
-                        <h2 class = "accordion-header" id = "panelsStayOpen-headingTwo">
-                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseTwo" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseTwo">
-                            Specialty
-                          </button>
-                        </h2>
-                        <div id = "panelsStayOpen-collapseTwo" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingTwo">
-                          <div class = "accordion-body">
-                            <p>Is a cylinder (very useful)</p>
-                          </div>
+                    </div>
+                    <div class = "accordion-item">
+                      <h2 class = "accordion-header" id = "panelsStayOpen-headingTwo">
+                        <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseTwo" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseTwo">
+                          Specialty
+                        </button>
+                      </h2>
+                      <div id = "panelsStayOpen-collapseTwo" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingTwo">
+                        <div class = "accordion-body">
+                          <p>Is a cylinder (very useful)</p>
                         </div>
                       </div>
-                      <div class = "accordion-item">
-                        <h2 class = "accordion-header" id = "panelsStayOpen-headingThree">
-                          <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseThree" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseThree">
-                            Fun Fact
-                          </button>
-                        </h2>
-                        <div id = "panelsStayOpen-collapseThree" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingThree">
-                          <div class = "accordion-body">
-                            <p>Got stuck in a drainpipe once</p>
-                          </div>
+                    </div>
+                    <div class = "accordion-item">
+                      <h2 class = "accordion-header" id = "panelsStayOpen-headingThree">
+                        <button class = "accordion-button collapsed" type = "button" data-bs-toggle = "collapse" data-bs-target = "#panelsStayOpen-collapseThree" aria-expanded = "false" aria-controls = "panelsStayOpen-collapseThree">
+                          Fun Fact
+                        </button>
+                      </h2>
+                      <div id = "panelsStayOpen-collapseThree" class = "accordion-collapse collapse" aria-labelledby = "panelsStayOpen-headingThree">
+                        <div class = "accordion-body">
+                          <p>Got stuck in a drainpipe once</p>
                         </div>
                       </div>
                     </div>
